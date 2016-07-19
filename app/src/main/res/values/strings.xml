@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">LabImagem</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_inicial">TelaInicial</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_abre_laudo">AbreLaudo</string>
+    <string name="title_activity_home"></string>
+
+    <string name="title_activity_ti">TI</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_pagenda">PAgenda</string>
+    <string name="title_activity_agenda">Agenda</string>
+    <string name="title_activity_menu__home">Menu_Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_empresa">Empresa</string>
+    <string name="title_activity_corpo__clinico">Corpo_Clinico</string>
+    <string name="title_activity_certificacao">Certificacao</string>
+    <string name="title_activity_corpo_clinico">CorpoClinico</string>
+    <string name="title_activity_convenios">Convenios</string>
+    <string name="title_activity_fale_conosco">FaleConosco</string>
+    <string name="title_activity_unidades">Map</string>
+</resources>

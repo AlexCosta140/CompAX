@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/fundoHome"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.alexcosta.labimagem.Home"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:id="@+id/logomarca"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageLogo"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:paddingLeft="33dp"
+        android:paddingRight="33dp"
+        android:paddingTop="25dp"
+        android:id="@+id/botoes"
+        android:background="@color/fundoHome"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:textSize="8dp"
+            android:text="Unidades"
+            android:drawableTop="@drawable/unidade_peq"
+            android:id="@+id/btUnidade"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_quina"
+            android:layout_gravity="center_horizontal"
+            android:onClick="Unidades"/>
+
+
+        <TextView
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/x1"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|left"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:textSize="8dp"
+            android:text="Convênios"
+            android:drawableTop="@drawable/convenio_peq"
+            android:id="@+id/btConvenio"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_quina"
+            android:layout_gravity="center_horizontal"
+            android:onClick="Convenios"/>
+
+        <TextView
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/x2"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|left"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:textSize="8dp"
+            android:text="Fale Conosco"
+            android:drawableTop="@drawable/telefone_peq"
+            android:id="@+id/btTelefone"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_quina"
+            android:layout_gravity="center_horizontal"
+            android:onClick="faleconosco"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="25dp"
+        android:id="@+id/botoesgde"
+        android:background="@color/fundoHome"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="PRé AGENDAMENTO"
+            android:id="@+id/btPreA"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_curva"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startPAgenda"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/x3"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|left"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="AGENDA"
+            android:id="@+id/btAgenda"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_curva"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startAgenda"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/x4"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|left"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="RESULTADO DE EXAMES"
+            android:id="@+id/btResult"
+            android:textColor="@color/colorTexto"
+            android:background="@drawable/style_botao_curva"
+            android:layout_gravity="center_horizontal"
+            android:onClick="startLaudos"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

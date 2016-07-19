@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomtextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="android:Theme.Holo.Light">  <!-- Cor dos icones,Drawer e actionBar -->
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="android:Theme.Holo.Light">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <!-- Cor do texto do action bar -->
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="textlist">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorTexto</item>
+        <item name="android:textColorHint">@color/colorTexto</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/colorTexto</item>
+        <item name="android:textColorHint">@color/colorTexto</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+
+    <style name="spinnerItemStyle">
+        <item name="android:textColor">@color/colorTexto</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

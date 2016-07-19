@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#054900</color>     <!-- Cor predominante -->
+    <color name="colorPrimaryDark">#0b7a03</color> <!-- Cor predominante leve -->
+    <color name="colorAccent">#0b7a03</color>      <!-- Cor do botao 3d -->
+    <color name="colorTexto">#0b7a03</color>       <!-- Cor do Texto -->
+    <color name="colorTextoTitulo">#FFFFFF</color> <!-- Cor do texto do titulo, actionbar -->
+    <color name="fundoHome">#FFFFFF</color>        <!-- Cor do fundo dos objetos -->
+    <color name="fundoMenuDrawer">#FFFFFF</color>  <!-- Cor do fundo do menu drawer -->
+    <color name="fundoActionBar">#FFFFFF</color>  <!-- Cor do fundo do action bar -->
+
+    <color name="black_overlay">#FF00ff</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/empresa"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Empresa" />
+        <item
+            android:id="@+id/certificacao"
+            android:icon="@drawable/ic_certificado_24dp"
+            android:title="Certificações" />
+        <item
+            android:id="@+id/corpo_clinico"
+            android:icon="@drawable/ic_group_24dp"
+            android:title="Corpo Clínico" />
+    </group>
+
+    <item android:title="Compartilhamento">
+        <menu>
+            <item
+                android:id="@+id/compartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+        </menu>
+    </item>
+
+</menu>
